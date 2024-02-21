@@ -16,7 +16,15 @@ justify-content: center;
     font-weight: 400;
     font-style: normal;
   }
-  
+
+  .home h1{
+  font-family: "Tangerine";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5rem;
+  color:azure;
+}
+
 .home .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

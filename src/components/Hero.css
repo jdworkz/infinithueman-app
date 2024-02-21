@@ -1,6 +1,6 @@
 .hero{
     color:white;
-    height: 20vh;
+    height: 5vh;
     width:100%;
     position: relative;
     margin-bottom: 4rem;
@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 940px) {
     .hero {
-        height: 15vh;
+        height: 5vh;
     }
 
     .hero h1 {
