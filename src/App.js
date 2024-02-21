@@ -9,6 +9,7 @@ function App() {
     <div >
       <Navbar />
       <Hero />
+      <Home />
     </div>
   );
 }

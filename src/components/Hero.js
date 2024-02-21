@@ -18,6 +18,7 @@ const Hero = () => {
                         <button type='submit'>< RiSearchLine className='icon'/></button>
                     </div>
                 </form>
+                
             </div>
         </div>
 
