@@ -3,7 +3,7 @@ import "./Navbar.css";
 import Hamburger from 'hamburger-react';
 import Logo from '../assets/INFINITE HUEMAN LOGO-4.png';
 import { Link } from 'react-router-dom';
-
+import { RiSearchLine } from 'react-icons/ri';
 
 
  const Navbar = () =>{
@@ -26,6 +26,23 @@ import { Link } from 'react-router-dom';
                 <div className='hamburger' onClick={handleClick}>
                 {click ? (<Hamburger className='icon' />) : (<Hamburger className='icon' />)}
                 </div>
+                <div className='hero2'>
+            <div className='content'>
+                <form className='search'>
+
+                   <div>
+    <                 input type='text' placeholder='Search product..' />
+
+                  </div>
+    
+                  <div className='radio'> 
+                        
+                        <button type='submit'>< RiSearchLine className='icon'/></button>
+                    </div>
+
+                  </form>
+                  </div>
+                  </div>
             </div>
         </div>
     )

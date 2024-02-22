@@ -4,8 +4,11 @@ import Pic1 from '../assets/Herobackground.jpg'
 import Pic2 from "../assets/IMG_4353.jpg"
 import logo from "../assets/INFINITE HUEMAN LOGO-4.png"
 
+
 function Home(){
+
     return(
+      
       <div className="home">
         <h1>Welcome to Infinite Hueman</h1>
         <div>
