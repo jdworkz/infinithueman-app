@@ -47,7 +47,7 @@
     animation: float 6s ease-in-out infinite;
   
   }
-  .navbar a {
+  .navbar Link {
     color: #edefee;
     font-weight: bold;
     font-size: 20px;
@@ -81,7 +81,7 @@
         right: 0;
     }
 
-    .navbar .nav-menu li a {
+    .navbar .nav-menu li Link {
         font-size: 2rem;
     }
 }
