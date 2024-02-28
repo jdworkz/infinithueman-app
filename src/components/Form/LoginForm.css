@@ -1,0 +1,22 @@
+Form {
+    border: 3px solid #f1f1f1;
+  }
+  input {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  h2{
+    font-family: "Tangerine";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5rem;
+  color:azure;
+  }
+  label{
+    
+  }

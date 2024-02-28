@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { RiSearchLine } from 'react-icons/ri';
 
 
+
  const Navbar = () =>{
     const[click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -15,7 +16,7 @@ import { RiSearchLine } from 'react-icons/ri';
             <div className = 'container'>
                 <h1><span><img src={Logo}  alt="Logo"></img> </span>
                 </h1>
-                <button className='btn'>Sign In </button>
+                <button className='btn'><Link to="/LoginForm">Sign In</Link> </button>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to="/Home">Home</Link></li>
                     <li><Link to="/Shop">Shop</Link></li>

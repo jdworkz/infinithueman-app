@@ -6,7 +6,9 @@ import Shop from './components/Shop/Shop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import About from './components/About/About'
+import LoginForm from './components/Form/LoginForm'
 import { Route, Routes} from 'react-router-dom'
+import RegisterForm from './components/Form/RegisterForm'
 
 function App() {
   return (
@@ -24,6 +26,20 @@ function App() {
         
 
       </Routes>
+      <div>
+        <Routes>
+          <Route path = "/LoginForm" element={<LoginForm/>}/>
+
+          
+        </Routes>
+      </div>
+      <div>
+        <Routes>
+          <Route path = "/RegisterForm" element={<RegisterForm/>}/>
+
+          
+        </Routes>
+      </div>
       </div>
      
       <Footer/>
