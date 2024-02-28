@@ -14,8 +14,8 @@ import { RiSearchLine } from 'react-icons/ri';
     return(
         <div className= 'navbar'>
             <div className = 'container'>
-                <h1><span><img src={Logo}  alt="Logo"></img> </span>
-                </h1>
+                <Link to ="/Home"><span><img src={Logo}  alt="Logo"></img> </span></Link>
+                
                 <button className='btn'><Link to="/LoginForm">Sign In</Link> </button>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to="/Home">Home</Link></li>
