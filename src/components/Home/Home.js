@@ -1,8 +1,8 @@
 import React from "react";
 import './Home.css';
-import Pic1 from '../assets/Herobackground.jpg'
-import Pic2 from "../assets/IMG_4353.jpg"
-import logo from "../assets/INFINITE HUEMAN LOGO-4.png"
+import Pic1 from '../../assets/Herobackground.jpg'
+import Pic2 from "../../assets/IMG_4353.jpg"
+import logo from "../../assets/INFINITE HUEMAN LOGO-4.png"
 
 
 function Home(){

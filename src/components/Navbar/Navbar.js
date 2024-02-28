@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import "./Navbar.css";
 import Hamburger from 'hamburger-react';
-import Logo from '../assets/INFINITE HUEMAN LOGO-4.png';
+import Logo from '../../assets/INFINITE HUEMAN LOGO-4.png';
 import { Link } from 'react-router-dom';
 import { RiSearchLine } from 'react-icons/ri';
 

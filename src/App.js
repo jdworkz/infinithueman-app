@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Home from './components/Home'
-import Shop from './components/Shop'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import About from './components/About'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import Home from './components/Home/Home'
+import Shop from './components/Shop/Shop'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import About from './components/About/About'
 import { Route, Routes} from 'react-router-dom'
 
 function App() {
