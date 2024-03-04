@@ -47,7 +47,7 @@ function LoginForm() {
     <div>
       <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div  className='signin'>
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -56,7 +56,7 @@ function LoginForm() {
             onChange={handleEmailChange}
           />
         </div>
-        <div>
+        <div className='signin'>
           <label htmlFor="password">Password:</label>
           <input
             type="password"

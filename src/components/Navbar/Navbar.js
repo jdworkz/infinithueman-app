@@ -16,7 +16,7 @@ import { RiSearchLine } from 'react-icons/ri';
             <div className = 'container'>
                 <Link to ="/Home"><span><img src={Logo}  alt="Logo"></img> </span></Link>
                 
-                <button className='btn'><Link to="/LoginForm">Sign In</Link> </button>
+                <button className="btn"><Link to="/LoginForm">Sign In/Register</Link> </button>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to="/Home">Home</Link></li>
                     <li><Link to="/Shop">Shop</Link></li>

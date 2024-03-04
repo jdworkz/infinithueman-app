@@ -79,6 +79,10 @@
      
      font-size: 35px;
    }
+   .btn{
+    color:white;
+    font-weight: bold;
+   }
 
    .hero2{
     color:white;
@@ -131,6 +135,7 @@
 .search input[type=text] {
     border: transparent;
     background-color: transparent;
+    height: 25px;
     width: 250px;
     font-size: 1.2rem;
     font-family: 'Raleway', sans-serif;
