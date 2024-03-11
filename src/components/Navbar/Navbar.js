@@ -5,7 +5,7 @@ import Logo from '../../assets/INFINITE HUEMAN LOGO-4.png';
 import { Link } from 'react-router-dom';
 import { RiSearchLine } from 'react-icons/ri';
 
-
+import { FaRegUserCircle } from "react-icons/fa";
 
  const Navbar = () =>{
     const[click, setClick] = useState(false)
@@ -14,9 +14,11 @@ import { RiSearchLine } from 'react-icons/ri';
     return(
         <div className= 'navbar'>
             <div className = 'container'>
+                <div className="logo-container">
                 <Link to ="/Home"><span><img src={Logo}  alt="Logo"></img> </span></Link>
+                </div>
                 
-                <button className="btn"><Link to="/LoginForm">Sign In/Register</Link> </button>
+                <button className="sign-btn" ><Link to="/LoginForm">< FaRegUserCircle/></Link> </button>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to="/Home">Home</Link></li>
                     <li><Link to="/Shop">Shop</Link></li>

@@ -1,11 +1,14 @@
 .hero{
-    color:white;
-    height: 20vh;
+    color:black;
+    height: 25vh;
     width:100%;
     position: relative;
     margin-bottom: 4rem;
+ 
     
 }
+    
+
     .hero:before {
         content: '';
         background: url('../../assets/Herobackground.jpg') no-repeat center center/cover;
@@ -15,6 +18,8 @@
         top: 0;
         left: 0;
         z-index: -1;
+        border-style:solid ;
+        border-width: .1rem;
     }
     
    
@@ -32,7 +37,7 @@
 
 @media screen and (max-width: 940px) {
     .hero {
-        height: 5vh;
+        height: 15vh;
     }
 
     .hero h1 {

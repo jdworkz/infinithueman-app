@@ -1,7 +1,8 @@
 .home{
     width: 100%;
-    margin:4rem 0;
+    margin:3rem 0;
     text-align: center;
+    
 }
 .home > div {
 display: flex;
@@ -25,18 +26,33 @@ justify-content: center;
   color:azure;
 }
 
-.home .container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-    padding: 1rem;
 
-}
-.home img {
+.container {
+    display: grid;
+    
+    grid-gap: 15px;
+   
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    
+  }
+  
+  .home img {
     width: 85%;
     height:85%;
+    border-style:solid ;
+    border-width: .1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+  
+  
+  
+  
+
+
 @media screen and (max-width:940px) {
     .home {
         margin: 1rem 0;

@@ -19,12 +19,26 @@ function Home(){
         </div>
         <div className="container">
   
-        
+        <div className="image1">
         <img src={Pic1}  alt=""/>
+        </div>
 
-        <img src={logo}  alt=""/>
        
+
+        <div className="image1">
+        <img src={logo}  alt=""/>
+        </div>
+
+       
+
+        <div className="image1">
         <img  src={Pic2}  alt=""/>
+        </div>
+
+        <div className="image1">
+        <img  src={Pic2}  alt=""/>
+        </div>
+        
         
         
         </div>
