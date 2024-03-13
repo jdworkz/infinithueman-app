@@ -4,12 +4,14 @@ import Hamburger from 'hamburger-react';
 import Logo from '../../assets/INFINITE HUEMAN LOGO-4.png';
 import { Link } from 'react-router-dom';
 import { RiSearchLine } from 'react-icons/ri';
+import { FaCartPlus } from "react-icons/fa";
 
 import { FaRegUserCircle } from "react-icons/fa";
 
  const Navbar = () =>{
     const[click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
+    const[menu,setMenu]= useState('home');
 
     return(
         <div className= 'navbar'>
@@ -17,13 +19,16 @@ import { FaRegUserCircle } from "react-icons/fa";
                 <div className="logo-container">
                 <Link to ="/Home"><span><img src={Logo}  alt="Logo"></img> </span></Link>
                 </div>
+                <div >
+
                 
-                <button className="sign-btn" ><Link to="/LoginForm">< FaRegUserCircle/></Link> </button>
+                <Link to="/LoginForm">< FaRegUserCircle className="sign-btn"  /></Link> 
+                </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li><Link to="/Home">Home</Link></li>
-                    <li><Link to="/Shop">Shop</Link></li>
-                    <li><Link to="/About">About</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
+                    <li onClick={()=>{setMenu("home")}}><Link to="/Home">Home</Link>{menu==="home"?<hr/>:<></>}</li>
+                    <li onClick={()=>{setMenu("shop")}}><Link to="/Shop">Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
+                    <li onClick={()=>{setMenu("about")}}><Link to="/About">About</Link>{menu==="about"?<hr/>:<></>}</li>
+                    <li onClick={()=>{setMenu("contact")}}><Link to="/Contact">Contact</Link>{menu==="contact"?<hr/>:<></>}</li>
                     
                 </ul>
                 <div className='hamburger' onClick={handleClick}>
@@ -46,6 +51,11 @@ import { FaRegUserCircle } from "react-icons/fa";
                   </form>
                   </div>
                   </div>
+                  <div> <Link to='/Cart'><FaCartPlus className="cart"/ > </Link>
+                 
+                  </div>
+                  <div className="cart-count">0</div>
+                 
             </div>
         </div>
     )

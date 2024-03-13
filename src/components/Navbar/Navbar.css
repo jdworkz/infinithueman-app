@@ -38,7 +38,7 @@
     flex-Direction:row; 
     justify-Content: flex-end;
     align-items: center;
-    
+    gap:40px;
     padding:1rem;
 }
 
@@ -171,15 +171,30 @@
     cursor: pointer;
 }
 
-.sign-btn{
-    
-    padding: none;
-    background-color: #E3B448;;
-    border: none;
-    border-radius: 8px;
-    font-size: 2rem;
+.sign-btn, .cart{
+    background-color: #E3B448;
+    border-radius: 0%;
+    font-size:2rem;
     transition: .4s;
     cursor: pointer;
+    color: #fff;
+}
+.cart-count{
+    width:22px;
+    height:22px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left:-15px;
+    border-radius: 11px;
+    font-size: 16px;
+    background-color: green;
+    color:#fff
+
+}
+ hr{
+    color: aquamarine;
 }
 
 @media screen and (max-width: 940px) {
