@@ -12,12 +12,14 @@ import LoginForm from './components/Form/LoginForm'
 import { Route, Routes} from 'react-router-dom'
 import RegisterForm from './components/Form/RegisterForm'
 
+
 function App() {
   return (
     <div >
       <Navbar />
       
       <Hero/>
+     
       <div>
       <Routes>
       <Route path="/" element={<Home/>} />
