@@ -11,7 +11,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #3e3b39;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- background-color:  #E3B448;
+ background-color:  #8ac44f;
 }
 
 code {

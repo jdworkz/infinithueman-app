@@ -3,6 +3,7 @@ import './Home.css';
 
 import Popular from "../Popular/Popular";
 import Offers from "../Offers/Offers";
+import NewsLetter from "../NewsLetter/NewsLetter";
 function Home(){
 
     return(
@@ -17,8 +18,9 @@ function Home(){
   
         </div>
         <Popular/>
-        <button className="btn">Shop Now</button>
+        
         <Offers/>
+        
         </div>
   
     )

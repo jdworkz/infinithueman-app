@@ -1,11 +1,12 @@
 import React from "react"
 import './Footer.css'
 import {FaFacebook, FaInstagram, FaTwitter, FaTiktok} from 'react-icons/fa'
-
+import NewsLetter from "../NewsLetter/NewsLetter"
 
 const Footer = () => {
     return(
         <div className="footer">
+            <NewsLetter/>
             <div className="copyright">
             
         <p>Copyright<span>&#169;</span>2022 Infinite Hueman</p>
@@ -21,7 +22,7 @@ const Footer = () => {
 
 
         </div>
-       
+        
 
 
         </div>

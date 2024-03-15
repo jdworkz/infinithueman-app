@@ -1,0 +1,27 @@
+.New-items{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1px;
+    height:90vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    }
+    .New-items h1{
+       color:black;
+       font-size: 50px;
+       font-weight: 600; 
+    }
+    .New-items hr{
+        width:200px;
+        height:6px;
+        border-radius:10px;
+        background-color: bisque;
+    }
+    .popular-item{
+        margin-top: 20px;
+        display:flex;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
