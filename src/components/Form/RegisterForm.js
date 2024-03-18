@@ -53,7 +53,8 @@ function RegisterForm() {
     };
   
     return (
-      <div>
+      <div className='register'>
+      <div className='register-container'>
         <h2>Register</h2>
         <form onSubmit={handleSubmit}>
           <div>
@@ -85,7 +86,9 @@ function RegisterForm() {
           </div>
           {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
           <button type="submit">Register</button>
+          <p className="register-login">Already have an account? <span>Login</span></p>
         </form>
+      </div>
       </div>
     );
   }

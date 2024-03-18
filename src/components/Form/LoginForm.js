@@ -44,7 +44,8 @@ function LoginForm() {
   };
 
   return (
-    <div>
+    <div className='login-signup'>
+      <div className='loginsignup-container'>
       <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>
         <div  className='signin'>
@@ -68,7 +69,7 @@ function LoginForm() {
         {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
         <button type="submit">Sign In</button>
       </form>
-      <button className='btn'><Link to="/RegisterForm">Register</Link> </button>
+      </div>
     </div>
     
   );
