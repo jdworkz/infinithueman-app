@@ -4,7 +4,7 @@ import img2 from './IMG_4353.jpg'
 let data_product= [
     {id:1,
     name:"Cramp Bark Tincture",
-    image:img1,
+    image:img1,  
     new_price:25.00,
     old_price:22.00,
 },

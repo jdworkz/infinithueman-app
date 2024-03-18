@@ -2,15 +2,13 @@ import React from "react"
 import './Footer.css'
 import {FaFacebook, FaInstagram, FaTwitter, FaTiktok} from 'react-icons/fa'
 import NewsLetter from "../NewsLetter/NewsLetter"
+import img1 from "../../assets/INFINITE HUEMAN LOGO-4.png"
 
 const Footer = () => {
     return(
         <div className="footer">
             <NewsLetter/>
-            <div className="copyright">
             
-        <p>Copyright<span>&#169;</span>2022 Infinite Hueman</p>
-        </div>
         <div className="social">
             <p>Follow us on </p>
 
@@ -22,7 +20,10 @@ const Footer = () => {
 
 
         </div>
-        
+        <div className="copyright">
+            <hr/>
+            <img src={img1} alt=""/><p>Copyright@2023-All Right Reserved Infinite Hueman</p>
+        </div>
 
 
         </div>
