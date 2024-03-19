@@ -6,11 +6,26 @@ import Pic1 from '../../assets/Herobackground.jpg'
 const Hero = () => {
     return (
         <div className='hero'>
-            <div className='banner'>
+            <div className='hero-left'>
+                <h1>Welcome to Infinite Hueman</h1>
                 
-                
+                <div>
+                     <p>Natural</p>
+                    <p>Ancestral</p>
+                    
+                    <p>Remedies</p>
+                    <div className="welcome">
+            <p> A wellness company where a history of proven plant knowledge meets modern herbal science.<br/>
+            </p>
+  
+        </div>
+                </div>
             
       
+    </div>
+    <div className='hero-right'>
+        <img src={Pic1} alt=''/>
+        
     </div>
                 
             </div>

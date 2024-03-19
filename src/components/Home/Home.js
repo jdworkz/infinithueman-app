@@ -3,20 +3,17 @@ import './Home.css';
 
 import Popular from "../Popular/Popular";
 import Offers from "../Offers/Offers";
-import NewsLetter from "../NewsLetter/NewsLetter";
+
+import Hero from '../Hero/Hero'
 function Home(){
 
     return(
-     
+      
       <div className="home">
+        <Hero/>
         
-           <h1>Welcome to Infinite Hueman</h1>
-        <div className="welcome">
-            <p>Welcome to Traditional Medicinals. A wellness company where a history of proven plant knowledge meets modern herbal science.<br/>
-            Where flavor meets efficacy. Where human nature meets Mother Nature to help you be the best version of you.<br/> 
-            Discover wellness with no strings attached—well, maybe one string.</p>
-  
-        </div>
+           
+       
         <Popular/>
         
         <Offers/>

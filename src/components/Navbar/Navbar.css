@@ -3,7 +3,7 @@
     height: 158px;
     top: 0;
     left: 0;
-    background-color:#8ac44f;
+    background-color:#fcffde;
     position: sticky;
     border: #3e3b3a;
     border-style:solid ;
@@ -78,7 +78,7 @@
   
   }
   .navbar li a {
-    color: #fcffde;
+    color: #3d550c;
     font-weight: bold;
     font-size: 25px;
     margin-right: 5px;
@@ -87,7 +87,7 @@
   }
    
   .navbar li a:hover {
-    color:#3d550c;
+    color:#8ac44f;
    }
    
    
@@ -177,12 +177,12 @@
 }
 
 .sign-btn, .cart{
-    background-color: #8ac44f;
+    background-color: #fcffde;
     border-radius: 0%;
     font-size:2rem;
     transition: .4s;
     cursor: pointer;
-    color: #fcffde;
+    color: #3d550c;
 }
 .cart-count{
     width:22px;
@@ -194,8 +194,8 @@
     margin-left:-5px;
     border-radius: 11px;
     font-size: 16px;
-    background-color:#8ac44f;
-    color:#e0fc00
+    background-color:#fcffde;
+    color: linear-gradient(45deg, #8ac44f 0%, #5651e5 100%);
 
 }
  .navbar hr{
