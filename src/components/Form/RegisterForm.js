@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import "./RegisterForm.css"
+
+import { Link } from 'react-router-dom';
 
 function RegisterForm() {
     const [email, setEmail] = useState('');
@@ -57,7 +60,7 @@ function RegisterForm() {
       <div className='register-container'>
         <h2>Register</h2>
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className='signin'>
             <label htmlFor="email">Email:</label>
             <input
               type="email"
@@ -66,7 +69,7 @@ function RegisterForm() {
               onChange={handleEmailChange}
             />
           </div>
-          <div>
+          <div className='signin'>
             <label htmlFor="password">Password:</label>
             <input
               type="password"
@@ -75,7 +78,7 @@ function RegisterForm() {
               onChange={handlePasswordChange}
             />
           </div>
-          <div>
+          <div className='signin'>
             <label htmlFor="confirmPassword">Confirm Password:</label>
             <input
               type="password"
@@ -86,7 +89,7 @@ function RegisterForm() {
           </div>
           {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
           <button type="submit">Register</button>
-          <p className="register-login">Already have an account? <span>Login</span></p>
+          <p className="register-login">Already have an account? <Link to='/LoginForm'><span>Login</span></Link></p>
         </form>
       </div>
       </div>

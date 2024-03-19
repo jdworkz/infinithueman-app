@@ -6,7 +6,7 @@
   }
   .register-container{
     width:580px;
-    height:500px;
+    height:600px;
     background: white;
     margin:auto;
     padding:40px 60px;
@@ -30,7 +30,7 @@
     color:#5c5c5c;
     font-size:18px
   }
-  .loginsignup-container button{
+  .register-container  button{
     width:90px;
     height:40px;
     color:white;
@@ -41,4 +41,16 @@
     font-weight:400;
     cursor: pointer;
   
+  }
+  .register-login{
+    margin-top: 20px;
+    color:#5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+  
+  }
+  
+  .register-login span{
+    color:#ff4141;
+    font-weight: 600;
   }
