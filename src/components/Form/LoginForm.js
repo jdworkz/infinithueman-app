@@ -68,6 +68,7 @@ function LoginForm() {
         </div>
         {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
         <button type="submit">Sign In</button>
+        <p className="register-login">Don't have an account?<Link to="./RegisterForm"><span> Register</span></Link> </p>
       </form>
       </div>
     </div>
