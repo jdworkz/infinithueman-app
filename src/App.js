@@ -11,6 +11,7 @@ import About from './components/About/About'
 import LoginForm from './components/Form/LoginForm'
 import { Route, Routes} from 'react-router-dom'
 import RegisterForm from './components/Form/RegisterForm'
+import ShopCategory from './Pages/ShopCategory/ShopCategory'
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
         <Route path="/About" element={<About/>} />
         <Route path="/Products" element={<Products/>}/>
         <Route path=':ProductId' element ={<Products/>}/>
+        <Route path='./Tincture' element ={<ShopCategory categort="Tinctur"/>}/>
+        <Route path='./Tea' element ={<ShopCategory categort="Tea"/>}/>
+        <Route path='./Soap' element ={<ShopCategory categort="Soap"/>}/>
         <Route path="/Cart" element={<Cart/>} />
         
 

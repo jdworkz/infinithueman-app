@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
+import{ShopContext} from '../Context/ShopContext'
+import {useParams} from 'react-router-dom';
+import Breadcrum from "../components/Breadcrums/BreadCrum";
+import DisplayProduct from "../components/DisplayProduct/DisplayProduct";
+
+
 export default function Products() {
-    return <div>
-    <h2>InfinitHueman was created to help people who could not take traditional medication </h2>
+  const{all_product}= useContext(ShopContext)
+  const {productId}= useParams();
+  const product=all_product.find((e)=> e.id === Number(productId))
+    return( 
+    <div>
+   <Breadcrum product={product}/>
+   <DisplayProduct product={product}/>
 </div>
+    )
   }

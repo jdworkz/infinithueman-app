@@ -1,0 +1,95 @@
+import img2 from './IMG_4353.jpg'
+let all_product = [
+    {
+      id: 1,
+      name: "Cramp Bark Tincture",
+      category: "Tincture",
+      image: img2,
+      new_price: 25.00,
+      old_price: 22.00,
+    },
+    {
+      id: 2,
+      name: "Nettle Tincture",
+      category: "Tincture",
+      image: img2,
+      new_price: 85.0,
+      old_price: 120.5,
+    },
+    {
+      id: 3,
+      name: "Moon Light Tea",
+      category: "Tea",
+      image: img2,
+      new_price: 60.0,
+      old_price: 100.5,
+    },
+    {
+      id: 4,
+      name: "Allergy Free Tea",
+      category: "Tea",
+      image: img2,
+      new_price: 100.0,
+      old_price: 150.0,
+    },
+    {
+      id: 5,
+      name: "Dark Spot Erraser Soap",
+      category: "Soap",
+      image:img2,
+      new_price: 85.0,
+      old_price: 120.5,
+    },
+    {
+      id: 6,
+      name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      category: "women",
+      image:img2,
+      new_price: 85.0,
+      old_price: 120.5,
+    },
+    {
+      id: 7,
+      name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      category: "women",
+      image: img2,
+      new_price: 85.0,
+      old_price: 120.5,
+    },
+    {
+      id: 8,
+      name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      category: "women",
+      image: img2,
+      new_price: 85.0,
+      old_price: 120.5,
+    },
+    {
+      id: 9,
+      name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      category: "women",
+      image: img2,
+      new_price: 85.0,
+      old_price: 120.5,
+    },
+    {
+      id: 10,
+      name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      category: "women",
+      image: img2,
+      new_price: 85.0,
+      old_price: 120.5,
+    },
+    {
+      id: 11,
+      name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      category: "women",
+      image: img2,
+      new_price: 85.0,
+      old_price: 120.5,
+    },
+    
+  ];
+  
+  export default all_product;
+  

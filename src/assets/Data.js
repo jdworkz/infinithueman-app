@@ -4,13 +4,13 @@ import img2 from './IMG_4353.jpg'
 let data_product= [
     {id:1,
     name:"Cramp Bark Tincture",
-    image:img1,  
+    image:img2,  
     new_price:25.00,
     old_price:22.00,
 },
 {id:2,
 name:"Nettle Tincture",
-image:img1,
+image:img2,
 new_price:20.00,
 old_price:19.00},
 
