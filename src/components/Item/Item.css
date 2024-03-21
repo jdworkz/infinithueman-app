@@ -3,6 +3,10 @@
     width:500px;
    
 }
+.item img{
+    width: 450px;
+    height: 350px;
+}
 .item p{
     margin:6px 0px;
 }
