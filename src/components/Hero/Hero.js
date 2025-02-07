@@ -7,15 +7,14 @@ const Hero = () => {
     return (
         <div className='hero'>
             <div className='hero-left'>
-                <h1>Welcome to Infinite Hueman</h1>
+                <h1>Welcome to GamingBank</h1>
                 
                 <div>
-                     <p>Natural</p>
-                    <p>Ancestral</p>
-                    
-                    <p>Remedies</p>
+                     
                     <div className="welcome">
-            <p> A wellness company where a history of proven plant knowledge meets modern herbal science.<br/>
+            <p> Welcome to the ultimate game recommendation service. Whether you're into action-packed adventures, immersive RPGs, or casual puzzles, 
+                we’ve got you covered! Get personalized game suggestions, build your list, and find the best deals—all in one place. 
+                Join our community and level up your gaming experience today!<br/>
             </p>
   
         </div>

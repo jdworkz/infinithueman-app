@@ -26,9 +26,9 @@ import { FaRegUserCircle } from "react-icons/fa";
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li onClick={()=>{setMenu("home")}}><Link to="/Home">Home</Link>{menu==="home"?<hr/>:<></>}</li>
-                    <li onClick={()=>{setMenu("shop")}}><Link to="/Shop">Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-                    <li onClick={()=>{setMenu("about")}}><Link to="/About">About</Link>{menu==="about"?<hr/>:<></>}</li>
-                    <li onClick={()=>{setMenu("contact")}}><Link to="/Contact">Contact</Link>{menu==="contact"?<hr/>:<></>}</li>
+                    <li onClick={()=>{setMenu("shop")}}><Link to="/GameList">GameList</Link>{menu==="shop"?<hr/>:<></>}</li>
+                    <li onClick={()=>{setMenu("about")}}><Link to="/About">Recommendations</Link>{menu==="about"?<hr/>:<></>}</li>
+                    <li onClick={()=>{setMenu("contact")}}><Link to="/Contact">WishList</Link>{menu==="contact"?<hr/>:<></>}</li>
                     
                 </ul>
                 <div className='hamburger' onClick={handleClick}>
